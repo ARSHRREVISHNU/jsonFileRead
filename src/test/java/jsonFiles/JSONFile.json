@@ -1,0 +1,39 @@
+{
+  "data": {
+    "customers": [
+      {
+        "id": 1,
+        "name": "xyz",
+        "contact": {
+          "phone": "99949494949",
+          "email": "asc@gmail.com"
+        }
+      },
+      {
+        "id": 2,
+        "name": "sdf",
+        "contact": {
+          "phone": "44949494949",
+          "email": "aklc@gmail.com"
+        }
+
+      },
+      {
+        "id": 3,
+        "name": "xyzop",
+        "contact": {
+          "phone": "9994949444449",
+          "email": "polsc@yahoo.com"
+        }
+      },
+      {
+        "id": 4,
+        "name": "wer",
+        "contact": {
+          "phone": "87888989023",
+          "email": "lolqqqc@hotmail.com"
+        }
+      }
+    ]
+  }
+}
