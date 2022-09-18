@@ -22,5 +22,6 @@ public void fileRead(){
 
         JsonPojoClass jsonPojoClass = objectMapper.readValue(file, JsonPojoClass.class);
         System.out.println(jsonPojoClass.getData().getCustomers());
+        System.out.println( jsonPojoClass.getData().getCustomers().stream().filter(customers -> customers.getName().equals("90")).findFirst());
     }
 }
