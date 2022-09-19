@@ -1,6 +1,6 @@
 Project - jsonFileRead
 
-This project takes the json file as the input and deseralize it and perform various test such as:
+This project framework has a capability of reading the JSON file and deserialize it into POJOs and perform various test such as:
 
 1. Test to validate that all customers have a non-empty phone number.
 2. Test to validate there are atleast 2 customers with `gmail` in their email information.
