@@ -8,10 +8,23 @@ public class JsonPojoClass {
 
  private Data data;
 
+
+
+ public boolean checkPhone() {
+  return  data.customers
+          .stream()
+          .filter(customers->customers.getContact().getPhone().isEmpty()).findFirst().isEmpty();
+ }
+
  @Getter
  public static class Data{
 
   private List<Customers> customers;
+
+
+
+
+
 
   @Getter
   public static class Customers{
