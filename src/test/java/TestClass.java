@@ -17,7 +17,7 @@ public class TestClass {
     int count;
     @BeforeClass
     public void fileRead() throws IOException {
-        file = new File("/Users/testvagrant/IdeaProjects/assignmentOne/src/test/java/jsonFiles/JSONFile.json");
+        file = new File("./src/test/java/jsonFiles/JSONFile.json");
 
 
         objectMapper = new ObjectMapper();
